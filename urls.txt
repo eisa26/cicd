@@ -1,0 +1,29 @@
+1. CI/CD configuration, yaml files, GitHub repository
+   https://github.com/irschad/udapeople
+   https://github.com/irschad/udapeople/tree/master/.circleci
+   https://github.com/irschad/udapeople/blob/master/.circleci/config.yml
+
+2. Active and working CI/CD pipeline that is triggered when new commits are detected in the connected Git repository:
+   https://app.circleci.com/pipelines/github/irschad/udapeople
+   
+   Pipeline jobs that deploy front-end and back-end code to S3 and EC2:
+   https://app.circleci.com/pipelines/github/irschad/udapeople/408/workflows/d2ab0f31-39e0-4720-a77b-bdb7bedb01b4/jobs/3214
+   https://app.circleci.com/pipelines/github/irschad/udapeople/408/workflows/d2ab0f31-39e0-4720-a77b-bdb7bedb01b4/jobs/3216
+  
+3. Ansible Playbook code that performs the tasks necessary to run the backend on the EC2 instance:
+   https://github.com/irschad/udapeople/tree/master/.circleci/ansible
+      
+4. Deployed and functioning front-end application:
+     
+   http://udapeople-frontend-d2ab0f3.s3-website-us-east-1.amazonaws.com/#/employees 
+   http://d33uw8nruf1uud.cloudfront.net/#/employees
+   
+5. The URL of blue backend EC2 deployment:
+   http://34.204.67.203:3030/api/status
+   http://ec2-34-204-67-203.compute-1.amazonaws.com:3030/api/status
+   
+6. Prometheus server:
+   http://3.85.226.3:9090/targets
+   http://ec2-3-85-226-3.compute-1.amazonaws.com:9090/targets   
+
+   
